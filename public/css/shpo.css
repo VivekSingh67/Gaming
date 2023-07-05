@@ -1,0 +1,160 @@
+    @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300&family=Share&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300&family=Mina&family=Share&display=swap');
+
+    .text-3{
+        margin-top: 60px; 
+        margin-left:12px; 
+        font-weight:600;
+        color: #ffffffbc;
+        font-family: 'Kodchasan', sans-serif;
+       font-weight: 600;
+    }
+    .shop-bg {
+        background-image: url(https://149397400.v2.pressablecdn.com/wp-content/uploads/2020/01/page-title-default.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 98vh;
+        display: flex;
+        padding-left: 20vh;
+        align-items: center;
+        line-height: 1;
+    }
+
+    .shop-bg-1 {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #03090d 100%);
+        width: 115%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: -129px;
+        padding-left: 132px;
+    }
+
+
+    .shop-h1 {
+        color: #ffffff;
+        font-family: "share", sans-serif;
+        font-size: 5vw;
+        font-weight: 700;
+    }
+
+    .shop-p {
+        color: #ffffffa6;
+        font-family: "Kodchasan", sans-serif;
+        font-size: 1.5vw;
+    }
+
+    .text-1 {
+        color: #ffffffbc;
+        font-size: 11px;
+        font-family: 'Kodchasan', sans-serif;
+        line-height: 2;
+        margin-left: 4px;
+    }
+
+    .header {
+        color: #ffffff;
+        font-size: 23px;
+        font-family: 'Kodchasan', sans-serif;
+        font-weight: 600;
+        line-height: 1;
+    }
+
+    .text-2 {
+        color: #ffffffbc;
+        font-size: 13px;
+        font-family: 'Kodchasan', sans-serif;
+        line-height: 3;
+    }
+
+    .add-card {
+        font-size: 12px;
+        background: #5be492;
+        padding: 9px 103px;
+        border: none;
+        color: #2b734a;
+        text-decoration: none;
+        font-family: 'Mina', sans-serif;
+        border-radius: none;
+        font-weight: 600;
+    }
+
+    .add-card:hover {
+        background: #ffffff;
+        color: #03090d;
+    }
+
+    @media (max-width: 767px){
+     
+    .add-card {
+        font-size: 12px;
+        background: #5be492;
+        padding: 9px 72px;
+       
+    }
+    }
+    /* Responsive styles */
+
+    @media (max-width: 767px) {
+        .shop-bg {
+            padding-left: 10px;
+        }
+
+        .shop-bg-1 {
+            padding-left: 127px;
+            width: 147%;
+        }
+
+        .shop-h1 {
+            font-size: 14vw;
+        }
+
+        .shop-p {
+            font-size: 5vw;
+        }
+
+        .card {
+            width: 100% !important;
+            margin-left: 0 !important;
+            margin-top: 20px !important;
+        }
+
+        .card-img-top {
+            height: 337px;
+            width: 39vh;
+            object-fit: cover;
+            margin-top: 24px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .shop-bg {
+            padding-left: 10px;
+        }
+
+        .shop-bg-1 {
+            padding-left: 10px;
+        }
+
+        .shop-h1 {
+            font-size: 4vw;
+        }
+
+        .shop-p {
+            font-size: 2vw;
+        }
+
+        .card {
+            width: 100% !important;
+            margin-left: 0 !important;
+            margin-top: 20px !important;
+        }
+
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+        }
+    }

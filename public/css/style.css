@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Mina&family=Share&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina&family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Mina&display=swap');
+
+body
+{
+  background-color: #000;
+}
+.collapse {
+  margin-right: 5rem;
+}
+
+.nav-link {
+  margin-left: 20px;
+  color: #7F8591;
+  font-family: 'Mina', sans-serif;
+  font-size: 15px;
+  position: relative;
+  text-decoration: none; 
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+.nav-link.active::after,
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.navbar {
+  background: #000000;
+  height: 17vh;
+}
+
+@media (max-width: 992px) {
+  .nav-link::after {
+    display: none;
+  }
+}
+
+.form-inline i {
+  margin-left: 18px;
+  font-size: 20px;
+  color: #7F8591;
+}
+
+.form-inline i:hover {
+  color: #fff;
+}
+
+.logo {
+  width: 8rem;
+}
+
+.navbar-brand {
+  position: relative;
+  right: 32px;
+}
+
+.form-inline {
+  position: relative;
+  left: 59px;
+}
+
+.text {
+  font-family: 'Mina', sans-serif;
+  color: #5BE592;
+  font-size: 16px;
+}
+
+.black {
+  /* background-color: transparent;
+  background-image: linear-gradient(180deg, #090F14 0%, #1A2026 100%); */
+  background: #000;
+}
+
+.text-reset i {
+  font-size: 12px;
+  color: #5BE592;
+  margin-right: 8px;
+}
+
+.text-reset {
+  font-size: 13px;
+  font-family: 'Kodchasan', sans-serif;
+  color: #6c757D;
+  font-weight: 600;
+}
+
+.font-text {
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 14px;
+  color: #6c757D;
+  font-weight: 600;
+  text-align: initial;
+}
+
+.gap {
+  margin: 10px;
+  font-size: 18px;
+}
+.underline-hr {
+  border: none;
+  height: 1px;
+  width: 5rem;
+  background-color: #6c757d;
+  margin-left: 0vh;
+}
+.underline-hr-1 {
+  border: none;
+  height: 0.5px;
+  width: 100%;
+  background-color: #6c757d;
+  margin-left: 0vh;
+}
+.underline-hr-1:not([size]) {
+  height: 0.5px;
+}
+
+.text-change {
+  font-size: 13px;
+  color: #6c757D;
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 600;
+  float: left;
+}
+
+.hr-1 {
+  color: aliceblue;
+}
+
+footer.text-center.text-lg-start.text-muted.black {
+  padding: 20px;
+  position: relative;
+  bottom: 75px;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .col-md-3,
+footer .col-md-2,
+footer .col-md-4 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  footer .col-md-3,
+  footer .col-md-2,
+  footer .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  footer .col-md-3,
+  footer .col-md-2,
+  footer .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  footer .col-md-3,
+  footer .col-md-2,
+  footer .col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+footer h6.text-uppercase.fw-bold.mb-4 {
+  font-size: 16px;
+}
+
+footer p.font-text {
+  font-size: 12px;
+}
+
+footer p.text-reset {
+  font-size: 12px;
+}
+
+footer p.text-reset i {
+  font-size: 10px;
+}
+
+footer .unde-line {
+  margin-left: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.logo-1 {
+  width: 55px;
+  float: left;
+}
+
+.aline {
+  text-align: initial;
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 16rem;
+}
+  .navbar-toggler {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+  }
+
+  .navbar-collapse {
+    display: none;
+  }
+
+  .navbar-collapse.show {
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: #000000;
+    padding: 15px;
+    margin-left: -16px;
+
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-item {
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .form-inline {
+    position: relative;
+    left: 24px;
+   
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    right: 15px;
+  }
+
+  .form-inline i {
+    margin-left: 5px;
+  }
+
+  .text-change,
+  .unde-line {
+    margin-left: 0;
+  }
+}
+
+
+.ml15 {
+  font-weight: 800;
+  font-size: 3.8em;
+  text-transform: uppercase;
+}
+
+.ml15 .word {
+  display: inline-block;
+}
+h1 span {
+  color: #626369;
+  font-family: "Share", Sans-serif;
+  font-size: 77px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.99em;
+  letter-spacing: -0.8px;
+}
+
+h1.slide-heading {
+  color: #fff;
+  font-family: "Share", Sans-serif;
+  font-size: 77px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.99em;
+  letter-spacing: -0.8px;
+  margin-top: 125px;
+  margin-left: 82px;
+}
+
+.bg-img-1 {
+  background-image: url(/images/slide-1.jpg); /* Replace with the correct image path */
+}
+
+.bg-img-2 {
+  background-image: url(/images/slide-2.jpg); /* Replace with the correct image path */
+}
+
+.carousel-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1199px) {
+  h1.slide-heading {
+    font-family: "Share", Sans-serif;
+    font-size: 77px;
+    margin-top: 90px;
+    margin-left: 40px;
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h1.slide-heading {
+    font-family: "Share", Sans-serif;
+    font-size: 77px;
+    margin-top: 80px;
+    margin-left: 30px;
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1.slide-heading {
+    font-family: "Share", Sans-serif;
+    font-size: 77px;
+    margin-top: 70px;
+    margin-left: 20px;
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h1.slide-heading {
+    font-family: "Share", Sans-serif;
+    font-size: 77px;
+    margin-top: 60px;
+    margin-left: 15px;
+    height: 80vh;
+  }
+}
+ 
+.email-input input {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding: 11px 14px 11px 0;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  background: transparent;
+  width: 100%;
+  max-width: calc(100% - 100px);
+  margin-right: 3px;
+  margin-top: 10rem;
+}
+
+.email-input input[type="submit"] {
+  margin-right: 0;
+  background: #FFFFFF;
+  font-size: 12px;
+  color: #03090d;
+  padding: 13px 14px 13px 14px;
+  border-radius: 0;
+  border: none;
+  position: relative;
+  width: auto;
+  border: none;
+  top: -1px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .email-input {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .email-input input {
+      margin-top: 1.5rem;
+      width: 100%;
+      max-width: none;
+  }
+
+  .email-input input[type="submit"] {
+      margin-top: 1rem;
+      width: 100%;
+  }
+}
+
+
+.NEWSLETTER{
+color: #fff;
+margin-top: 6rem;
+font-family: 'Mina' sans-serif;
+
+}
+.NEWSLETTER-P{
+font-family: 'Mina' sans-serif;
+color: rgba(255, 255, 255, .73);
+font-size: 14px;
+font-weight: 600;
+line-height: 1.5em;
+margin-top: 30px;
+font-weight: 500; 
+}
+
+.learn-green{
+color: #5BE592;
+font-size: 11px;
+font-family: 'Mina', sans-serif;
+text-decoration: none;
+font-weight: 600;
+}
+.learn-green:hover{
+color: #fff;
+}
+
+.logo-title {
+  color: #FFFFFF;
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 2;
+}
+
+.logo-text {
+  color: #7F8591;
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.logo-ashish
+{
+  position: relative;
+  bottom: 74px;
+}
+
+.logo-bg-l {
+  margin-left: 100px;
+  margin-top: 5rem;
+  width: 116px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-bg-l {
+      margin-left: 80px;
+  }
+}
+
+.logo-bg {
+  background: #000;
+  padding: 20px; /* Add padding for better visibility */
+}
+
+@media screen and (max-width: 768px) {
+  .logo-bg-l {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 20px;
+  }
+}
+
+
+hr:not([size]) {
+  height: 2px;
+}
+
+
+.card {
+  background: #000;
+}
+
+.card-title {
+  color: #FFFFFF;
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 2;
+
+}
+
+.card-text {
+  color: #7F8591;
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 600;
+}
+
+.btn  {
+  font-family: 'Mina', sans-serif;
+  font-size: 12px;
+  padding: 8px 23px;
+  background: #1D1F22;
+  color: #FFFFFFB3;
+  font-weight: 500;
+}
+
+.btn:hover {
+  font-family: 'Mina', sans-serif;
+  background: #FFFFFF;
+  color: #7F8591;
+  font-weight: 700;
+}
+.btn a{
+  color: #FFFFFFB3;
+  text-decoration: none;
+}
+.btn a:hover{
+  color: #7F8591;
+  text-decoration: none;
+}
+
+.section {
+  background: #000000d9;
+  padding-top: 120px;
+  position: relative;
+  bottom: 73px;
+}
+
+.background {
+  background-image: url(/images/home1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 98vh;
+  
+}
+
+@media screen and (min-width: 768px) {
+  .background {
+      height: 160vh;
+  }
+}
+
+h2 {
+
+  padding-top: 50px;
+  font-size: 36px;
+  color: #fff;
+}
+
+.oue-comp-1 {
+  font-family: "Share", Sans-serif;
+  font-size: 77px;
+  text-transform: uppercase;
+  line-height: 1em;
+  word-wrap: break-word;
+  padding: 0;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 44px;
+}
+
+.our-comp {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 2;
+  font-family: "Share", Sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #c1c1c1;
+}
+
+.our-comp-p {
+  font-family: 'Kodchasan', sans-serif;
+  color: rgba(255, 255, 255, .73);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.our-comp-p1 {
+  font-family: 'Kodchasan', sans-serif;
+  color: rgba(255, 255, 255, .73);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {  
+  .oue-comp-1 {
+      font-size: 48px;
+  }
+
+  .our-comp {
+      font-size: 20px;
+      line-height: 1.5;
+  }
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  margin-top: 38px;
+}

@@ -1,0 +1,196 @@
+    @import url("https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Mina&family=Share:wght@700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Kodchasan:wght@300&family=Mina&family=Share:wght@700&display=swap");
+
+    .Jessica{
+        color: #ffffff;
+        font-family: "Kodchasan", sans-serif;
+        font-size: 37px;
+        padding-top: 66vh;
+        padding-left: 22px;
+        font-weight: bold;
+    }
+.Thomson{
+    color: #ffffff;
+    font-family: "Kodchasan", sans-serif;
+    font-size: 25px;
+    padding-left: 22px;
+    font-weight: bold;
+}
+.DESIGN{
+    color: #5BE592;
+    font-family: "Mina",Sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 22px;
+    font-weight: bold;
+}
+
+
+
+    .partition-second {
+        background-color: #03090d;
+        padding-top: 28vh;
+    }
+    .team-1{
+        background-image: url(/images/team-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;   
+}
+    .team-2{
+        background-image: url(/images/team-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .team-3{
+        background-image: url(/images/team-3.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .team-4{
+        background-image: url(/images/team-4.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .team-5{
+        background-image: url(/images/team-5.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .team-6{
+        background-image: url(/images/team-6.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+
+    .studio-p3 {
+        color: #ffffff;
+        font-family: "Kodchasan", sans-serif;
+        font-size: 15px;
+        line-height: 0;
+        margin-top: 37px;
+    }
+
+    .studio-p4 {
+        color: #ffffffa6;
+        font-family: "Kodchasan", sans-serif;
+        font-size: 13px;
+
+    }
+
+    .col-md-5 p {
+        margin-left: 59px;
+    }
+
+    .partition {
+        background-color: #03090d;
+        padding-top: 28vh;
+    }
+
+    .circle {
+        margin: 76px 0px 15px 59px;
+        padding: 3px 21px 6px 14px;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #5BE592;
+        border-radius: 100px 100px 100px 100px;
+        color: #ffffff;
+        margin-right: 90vh;
+    }
+
+    .our-game {
+        background-image: url(/images/5.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 95vh;
+        background-color: linear-gradient(to bottom,
+                rgba(0, 0, 0, 0) 0%,
+                #03090d 100%);
+    }
+   
+
+    .our-game-h1 {
+        color: #ffffff;
+        margin-top: 35vh;
+        font-family: "share", sans-serif;
+        font-size: 78px;
+    }
+
+    .our-game-p {
+        color: #ffffffa6;
+        font-family: "Kodchasan", sans-serif;
+        font-size: 18px;
+    }
+
+    .our-studio {
+        background-image: url(/images/studio-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 150vh;
+    }
+
+    .our-studio h1 {
+        color: #ffffff;
+        font-family: "share", sans-serif;
+        margin-top: 25vh;
+        font-size: 78px;
+    }
+
+    .studio-p2 {
+        color: #ffffff99;
+        font-size: 17px;
+        font-family: "Kodchasan", sans-serif;
+    }
+
+    .studio-p1 {
+        color: #ffffffbf;
+        font-size: 20px;
+        font-family: "Kodchasan", sans-serif;
+    }
+
+    .bulding {
+        background-image: url(/images/7.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 95vh;
+    }

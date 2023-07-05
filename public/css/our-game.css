@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Mina&family=Share:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@300&family=Mina&family=Share:wght@700&display=swap');
+.our-game {
+    background-image: url(https://149397400.v2.pressablecdn.com/wp-content/uploads/2020/01/page-title-default.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 117vh;
+}
+.our-game-h1{
+    color: #FFFFFF;
+   margin-top: 45vh;
+   font-family: 'share', sans-serif;
+   font-size: 78px;
+
+}
+.our-game-p{
+    color: #FFFFFFA6;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+}
+.section-1 {
+    background: #000000d9;
+    padding-top: 120px;
+    position: relative;
+    bottom: 73px;
+  }
